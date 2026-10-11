@@ -1,0 +1,57 @@
+
+    
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 1000,
+      "stock": 25,
+      "description": "High-quality wireless headphones with clear sound and deep bass.",
+      "image": "https://placehold.co/300x200?text=Headphones",
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "category": "Electronics",
+      "price": 2500,
+      "stock": 15,
+      "description": "A stylish smartwatch with fitness tracking and heart rate monitoring.",
+      "image": "https://placehold.co/300x200?text=Smart+Watch",
+      "rating": 4.3
+    },
+    {
+      "id": 3,
+      "name": "Cotton T-Shirt",
+      "category": "Clothing",
+      "price": 650,
+      "stock": 40,
+      "description": "Comfortable cotton T-shirt suitable for everyday wear.",
+      "image": "https://placehold.co/300x200?text=T-Shirt",
+      "rating": 4.2
+    },
+    {
+      "id": 4,
+      "name": "Travel Backpack",
+      "category": "Accessories",
+      "price": 1200,
+      "stock": 20,
+      "description": "A durable backpack with multiple compartments for travel and daily use.",
+      "image": "https://placehold.co/300x200?text=Backpack",
+      "rating": 4.6
+    },
+    {
+      "id": 5,
+      "name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "price": 1800,
+      "stock": 30,
+      "description": "A portable Bluetooth speaker with powerful sound and a compact design.",
+      "image": "https://placehold.co/300x200?text=Speaker",
+      "rating": 4.4
+    }
+  ]
+}
+
