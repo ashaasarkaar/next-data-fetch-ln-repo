@@ -4,9 +4,9 @@
   "products": [
     {
       "id": 1,
-      "name": "Wireless Headphones",
+      "name": "Wireless Bluetooth Headphones",
       "category": "Electronics",
-      "price": 1000,
+      "price": 2000,
       "stock": 25,
       "description": "High-quality wireless headphones with clear sound and deep bass.",
       "image": "https://placehold.co/300x200?text=Headphones",
@@ -14,7 +14,7 @@
     },
     {
       "id": 2,
-      "name": "Smart Watch",
+      "name": "Smart Apple Watch",
       "category": "Electronics",
       "price": 2500,
       "stock": 15,
@@ -24,7 +24,7 @@
     },
     {
       "id": 3,
-      "name": "Cotton T-Shirt",
+      "name": "Cotton Unique T-Shirt",
       "category": "Clothing",
       "price": 650,
       "stock": 40,
@@ -34,7 +34,7 @@
     },
     {
       "id": 4,
-      "name": "Travel Backpack",
+      "name": "Travel Backpack Collection Good",
       "category": "Accessories",
       "price": 1200,
       "stock": 20,
@@ -44,7 +44,7 @@
     },
     {
       "id": 5,
-      "name": "Bluetooth Speaker",
+      "name": "Bluetooth Wireless Speaker",
       "category": "Electronics",
       "price": 1800,
       "stock": 30,

@@ -19,16 +19,16 @@
 // }
 
 {/*way-4 Globally normal Easy  to data fetching in next.js with throwing errorr sms inside if condition with res.ok*/ }
-const getPost = async () => {
-    const res = await fetch('https://jsonplaceholder.typicode.com/posts')
+// const getPost = async () => {
+//     const res = await fetch('https://jsonplaceholder.typicode.com/posts')
     
-    if(!res.ok){
-        throw new Error('Failed To Fetch Data')
-    }
+//     if(!res.ok){
+//         throw new Error('Failed To Fetch Data')
+//     }
     
-    return res.json()
+//     return res.json()
 
-} 
+// } 
 
 
 
@@ -38,11 +38,11 @@ const PostsPage = async () => {
     // const res = await fetch('https://jsonplaceholder.typicode.com/posts');
     // const posts = await res.json();
 
-    const posts = await getPost()
+    // const posts = await getPost()
 
     return (
         <div>
-            <h1>Posts is Coming Soon....{posts.length}</h1>
+            {/* <h1>Posts is Coming Soon....{posts.length}</h1> */}
         </div>
     );
 };
