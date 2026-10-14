@@ -4,9 +4,9 @@
   "products": [
     {
       "id": 1,
-      "name": "Wireless Bluetooth Headphones",
+      "name": "less Bluetooth Headphones Gadget",
       "category": "Electronics",
-      "price": 2000,
+      "price": 1000,
       "stock": 25,
       "description": "High-quality wireless headphones with clear sound and deep bass.",
       "image": "https://placehold.co/300x200?text=Headphones",
@@ -14,7 +14,7 @@
     },
     {
       "id": 2,
-      "name": "Smart Apple Watch",
+      "name": "Smart Elephant Apple Watch",
       "category": "Electronics",
       "price": 2500,
       "stock": 15,
@@ -44,13 +44,65 @@
     },
     {
       "id": 5,
-      "name": "Bluetooth Wireless Speaker",
+      "name": "Bluetooth Wireless Speaker Chemical Mouse Keyboard MY",
       "category": "Electronics",
       "price": 1800,
       "stock": 30,
       "description": "A portable Bluetooth speaker with powerful sound and a compact design.",
       "image": "https://placehold.co/300x200?text=Speaker",
       "rating": 4.4
+    }
+  ],
+   "books": [
+    {
+      "id": 1,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "category": "Fiction",
+      "price": 350,
+      "publishedYear": 1988,
+      "inStock": true,
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "category": "Self-Help",
+      "price": 450,
+      "publishedYear": 2018,
+      "inStock": true,
+      "rating": 4.9
+    },
+    {
+      "id": 3,
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert T. Kiyosaki",
+      "category": "Finance",
+      "price": 400,
+      "publishedYear": 1997,
+      "inStock": false,
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt",
+      "category": "Programming",
+      "price": 650,
+      "publishedYear": 1999,
+      "inStock": true,
+      "rating": 4.7
+    },
+    {
+      "id": 5,
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "category": "Productivity",
+      "price": 500,
+      "publishedYear": 2016,
+      "inStock": true,
+      "rating": 4.5
     }
   ]
 }
