@@ -1,4 +1,5 @@
 import BookCard from "@/components/BookCard";
+import { Suspense } from "react";
 
 
 
@@ -8,7 +9,7 @@ const getBooks = async() =>{
     return  res.json();
 }
 
-const BooksPage = async() => {
+const BookList = async() => {
     const books = await getBooks();
     return (
         <div>
@@ -21,5 +22,14 @@ const BooksPage = async() => {
         </div>
     );
 };
+
+const BooksPage = () => {
+    return (
+        <Suspense fallback={<p>Loading Book List...</p>}>
+            <BookList></BookList>
+        </Suspense>
+    )
+}
+
 
 export default BooksPage;

@@ -1,9 +1,9 @@
 
 export const generateStaticParams = async() =>{
-    const res = await fetch('http://localhost:5000/books');
+    const res = await fetch('http://localhost:5000/books',{cache: 'no-store'});
     const books = await res.json();
 
-    return books.map(book => ({
+    return books.slice(1, 3).map(book => ({
         bookId: book.id
     }))
 }
